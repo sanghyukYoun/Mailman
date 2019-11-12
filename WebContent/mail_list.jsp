@@ -13,7 +13,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>홍보 대상자 추천</title>
-<link rel="stylesheet" href="mail.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="mail.css?after" type="text/css" media="screen" />
 <script type="text/javascript">
 	
 </script>
@@ -72,8 +72,40 @@
 
 
 <body>
+
+<nav>
+
+	<div class="container nav-container">
+
+	   	<ul class="navbar">
+
+		    <li style="border:1px solid #848484; background-color: #424242;"><p>홍보대상자추출</p></li>
+
+			<li><p style="border:1px solid #848484;">상품정보</p></li>
+
+	    </ul>
+
+	</div>
+
+</nav>
+<nav>
+
+	<div class="container nav-container">
+
+	   	<ul class="navbar">
+
+		    <li style="border:1px solid #848484; background-color: #424242;"><p>홍보 상품 선택</p></li>
+
+			<li style="border:1px solid #848484;"><p>유사상품목록</p></li>
+
+		    <li style="border:1px solid #848484;"><p>구매고객분류</p></li>
+
+	    </ul>
+
+	</div>
+
+</nav>
 	<div align=center>
-		<H2>홍보 상품 선택</H2>
 		<HR>
 		<form action="mail_view.jsp">
 			<table border=1>
