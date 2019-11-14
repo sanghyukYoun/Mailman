@@ -7,7 +7,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>게시판</title>
-	<link rel="stylesheet" href="mail.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/mail.css" type="text/css" media="screen" />
 </head>
 
 <body>
@@ -26,6 +26,8 @@
 			</td>
 		</tr>
 	</table>
+	<br>
+	<input type="button" value="되돌아가기" onclick="history.back();"> <input type="button" value="닫기" onclick="self.close();">
 	</div>
 </body>
 </html>

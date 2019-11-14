@@ -14,7 +14,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>구매고객분류</title>
 <script type="text/javascript" src="jquery-1.9.1.js"></script>
-<link rel="stylesheet" href="mail.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/mail.css" type="text/css" media="screen" />
 <script type="text/javascript">
 	// 체크박스 전체선택
 	$(document).ready(function() {
@@ -160,6 +160,36 @@
 	}
 %>
 <body>
+<nav>
+
+	<div class="container nav-container">
+
+	   	<ul class="navbar">
+
+		    <li style="border:1px solid #848484; background-color: #424242;"><p>홍보 대상자 추출</p></li>
+
+	    </ul>
+
+	</div>
+
+</nav>
+<nav>
+
+	<div class="container nav-container">
+
+	   	<ul class="navbar">
+
+		    <li style="border:1px solid #848484;"><p>홍보 상품 선택</p></li>
+
+			<li style="border:1px solid #848484;"><p>유사상품목록</p></li>
+
+		    <li style="border:1px solid #848484; background-color: #424242;"><p>구매고객분류</p></li>
+
+	    </ul>
+
+	</div>
+
+</nav>
 	<form action="mail_usergroup_select.jsp" id="form1" name="form1" method="post">
 		<input type="hidden" name="checkItemId" value="<%=checkItemId%>">
 		<div align=center>

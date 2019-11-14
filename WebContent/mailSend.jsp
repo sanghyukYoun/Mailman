@@ -12,7 +12,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Mail Send</title>
-<link rel="stylesheet" href="<%=cp%>/mail/data/style.css" type="text/css" />
 <script type="text/javascript" src="<%=cp%>/mail/data/mail.js"></script>
 </head>
 <script type="text/javascript">

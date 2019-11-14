@@ -18,7 +18,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>유사상품목록</title>
-<link rel="stylesheet" href="mail.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/mail.css" type="text/css" media="screen" />
 </head>
 
 <%
@@ -85,6 +85,36 @@
 %>
 
 <body>
+<nav>
+
+	<div class="container nav-container">
+
+	   	<ul class="navbar">
+
+		    <li style="border:1px solid #848484; background-color: #424242;"><p>홍보 대상자 추출</p></li>
+
+	    </ul>
+
+	</div>
+
+</nav>
+<nav>
+
+	<div class="container nav-container">
+
+	   	<ul class="navbar">
+
+		    <li style="border:1px solid #848484;"><p>홍보 상품 선택</p></li>
+
+			<li style="border:1px solid #848484; background-color: #424242;"><p>유사상품목록</p></li>
+
+		    <li style="border:1px solid #848484;"><p>구매고객분류</p></li>
+
+	    </ul>
+
+	</div>
+
+</nav>
 	<div align=center>
 		<H2>유사상품목록</H2><br>
 		<H3>유사상품 기준 : 제조일자 +-2달, 상품분류코드 일치, 가격+-10만원</H3>

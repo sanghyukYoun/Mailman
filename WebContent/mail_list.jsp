@@ -13,7 +13,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>홍보 대상자 추천</title>
-<link rel="stylesheet" href="mail.css?after" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/mail.css?after" type="text/css" media="screen" />
 <script type="text/javascript">
 	
 </script>
@@ -79,9 +79,7 @@
 
 	   	<ul class="navbar">
 
-		    <li style="border:1px solid #848484; background-color: #424242;"><p>홍보대상자추출</p></li>
-
-			<li><p style="border:1px solid #848484;">상품정보</p></li>
+		    <li style="border:1px solid #848484; background-color: #424242;"><p>홍보 대상자 추출</p></li>
 
 	    </ul>
 

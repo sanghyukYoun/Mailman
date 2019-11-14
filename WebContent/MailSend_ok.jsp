@@ -80,6 +80,15 @@
 
 	mail.sendMail();
 
-	out.print("메일이 전송되었습니다.");	
+	out.print("<br><br><br>" + "메일이 전송되었습니다.");	
 
 %>
+<html>
+
+<body>
+	<div align="center">
+	<br><br><br>
+	<input type="button" value="되돌아가기" onclick="history.back();"> 
+	</div>
+</body>
+</html>
