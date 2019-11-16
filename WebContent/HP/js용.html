@@ -6,12 +6,12 @@
 <script type="text/javascript">
 
 var goodURL  = "../mailSend.jsp"  //이곳에 인증이 되었을때 이동할 페이지  입력
-    alert("패스워드를 입력하셔야 합니다.")
+    alert("메일작성을 위해 인증번호가 필요합니다.")
 
-var password =  prompt("PASSWD 입력","")
+var password =  prompt("인증번호 입력","")
 
     if (password == null)  {
-        alert("출입금지")
+        alert("먼저 메일작성을 의뢰받으세요")
         window.history.back();        // 실패시 이동 주소       history.back();를 넣어도 됨
     }
     else  {
@@ -23,7 +23,7 @@ var password =  prompt("PASSWD 입력","")
         location  =  goodURL
     }
     else  {
-        alert("출입금지")
+        alert("먼저 메일작성을 의뢰받으세요")
         window.history.back();     // 실패시 이동 주소      history.back();를 넣어도 됨
     }
 }

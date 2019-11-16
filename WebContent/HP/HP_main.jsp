@@ -16,7 +16,7 @@
 
 function openmailSend()
     {
-	confirm('관리자 로그인이 필요합니다.');
+	confirm('인증이 필요합니다.');
 	location.href='js용.html';   
     }	
     </script>
@@ -126,7 +126,7 @@ function openmailSend()
 <%
 			} else {
 %>
-			<button class="btn btn-primary pull-right" a href="javascript:openmailSend()" type="button" >관리자 페이지로 이동</button>
+			<a href="javascript:openmailSend()"><button class="btn btn-primary pull-right" type="button" >메일시스템 이용하기</button></a>
 <%
 			}
 %>
