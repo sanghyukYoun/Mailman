@@ -10,21 +10,19 @@
 <link rel="stylesheet" href="../css/bootstrap.css">
 <link rel="stylesheet" href="../css/custom.css">
 </head>
-
-<script type="text/javascript">
-
-
-function openmailSend()
-    {
-	confirm('관리자 로그인이 필요합니다.');
-	location.href='js용.html';   
-    }	
-    </script>
 <body>
 	<%
 		String userID = null;
 		if (session.getAttribute("userID") != null) {
 			userID = (String) session.getAttribute("userID");
+		}
+		if(userID == null) {
+			PrintWriter script = response.getWriter();
+			script.println("<script>");
+			script.println("alert('로그인을 하세요.');");
+			script.println("location.href='login.jsp'");
+			script.println("</script>");
+			script.close();
 		}
 	%>
 	<nav class="navbar navbar-default">
@@ -77,64 +75,29 @@ function openmailSend()
 		</div>
 	</nav>
 	<div class="container">
-		<div class="jumbotron">
-			<div class="container">
-				<h1>이지메일</h1>
-				<p>메일 홍보 문의</p>
-			</div>
+		<div class="row">
+			<form method="post" action="writeAction.jsp">
+				<table class="table table-bordered" style="text-align: center;">
+					<thead>
+						<tr>
+							<th colspan="2" style="background-color: #eeeeee; text-align: center;">글쓰기</th>
+						</tr>
+					</thead>
+					<tbody>
+							<tr>
+								<td colspan="2"><input type="text" class="form-control" placeholder="글 제목" name="bbsTitle" maxlength="50"></td>
+							</tr>
+							<tr>
+								<td colspan="2"><textarea class="form-control" name="bbsContent" placeholder="글 내용" maxlength="2048" style="height: 350px;"></textarea></td>
+							</tr>
+					</tbody>
+				</table>
+				<input type="submit" class="btn btn-primary pull-right" value="글쓰기">
+			</form>
 		</div>
 	</div>
-	<div class="container">
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
-			</ol>
-			<div class="carousel-inner">
-				<div class="item active">
-					<img src="../images/1.jpg">
-				</div>
-				<div class="item">
-					<img src="../images/2.jpg">
-				</div>
-				<div class="item">
-					<img src="../images/3.jpg">
-				</div>
-			</div>
-			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="right carousel-control" href="#myCarousel" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right"></span>
-				<span class="sr-only">Next</span>
-			</a>
-		</div>	
-	</div>
-	<br><br>
-	<table border=0 align="center">
-	<tr>
-	<td align="center">
-	
-	<%
-			//if logined userID라는 변수에 해당 아이디가 담기고 if not null
-			if (session.getAttribute("userID") != null) {
-%>
-			
-    				<input type="button" class="btn btn-primary pull right" value="관리자 페이지로 이동" onClick="openmailSend();">
-<%
-			} else {
-%>
-			<button class="btn btn-primary pull-right" a href="javascript:openmailSend()" type="button" >관리자 페이지로 이동</button>
-<%
-			}
-%>
-	</td>
-	</tr>
-	</table>
-	<br><br>
-		<nav class="navbar navbar-default">
+		<br><br>
+			<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed"
@@ -148,8 +111,7 @@ function openmailSend()
 			</div>
 		</div>
 	</nav>
-	
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script src="../js/bootstrap.js"></script>
+	<script src="js/bootstrap.js"></script>
 </body>
 </html>

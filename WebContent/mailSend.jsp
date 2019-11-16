@@ -11,10 +11,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <title>Mail Send</title>
+<link rel="stylesheet" href="mail2.css" type="text/css" media="screen" />
 <script type="text/javascript" src="<%=cp%>/mail/data/mail.js"></script>
 </head>
 <script type="text/javascript">
+
+
 	function mailSend() {
 		document.myForm.submit();
 	}
@@ -27,11 +31,42 @@
     }	
 </script>
 <body onload="document.myForm.sendName.focus();">
-	<br>
-	<br />
-	<br>
-	<br />
 
+<nav>
+
+	<div class="container nav-container">
+
+	   	<ul class="navbar">
+
+		    <li style="border:1px solid #BDBDBD; background-color: #2E64FE;"><p>메일시스템</p></li>
+
+	    </ul>
+	    
+
+	</div>
+
+</nav>
+<nav>
+
+	<div class="container nav-container">
+
+	   	<ul class="navbar">
+
+		    <li style="border:1px solid #BDBDBD; background-color: #00BFFF;"><p>중요사항</p></li>
+
+			<li style="border:1px solid #BDBDBD; background-color: #2E64FE;""><p>상세정보작성</p></li>
+
+
+	    </ul>
+
+	</div>
+
+</nav>
+<HR>
+	<br>
+	<br />
+	<br>
+	<br />
 	<form action="MailSend_ok.jsp" name="myForm" method="post" enctype="multipart/form-data">
 		<table width="600" border="1" cellpadding="3" cellspacing="0" align="center" bordercolor="BDBDBD">
 			<tr bgcolor="#999999">
@@ -70,6 +105,11 @@
 			</tr>
 		</table>
 	</form>
+		<br>
+	<br />
+	<br>
+	<br />
+	<HR>
 
 </body>
 </html>

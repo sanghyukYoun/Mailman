@@ -45,38 +45,3 @@ nav {
 		flex: auto;
 		text-align: center;
 	}
-
-table {
-	width: auto;
-	border-collapse: collapse;
-	text-align: center;
-}
- 
-td,th {
-	font-size: 10pt;
-	border: 1px solid #BDBDBD;
-	height: 30px;
-	padding: 5px;
-}
-
-th {
-	background-color: #BDBDBD;
-	color: #ffffff;
-	font-family: Georgia;
-}
-
-tr td {
-	color: #000000;
-	background-color: #ffffff;
-	
-}
-
-input {
-	height: 25px;
-	width:200px;
-}
-
-input[type="submit"],[type="reset"],[type="button"] {
-	height: 25px;
-	width:80px;
-}
