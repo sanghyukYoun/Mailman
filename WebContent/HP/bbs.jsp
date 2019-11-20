@@ -9,10 +9,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width" , initial-scale="1">
-<title>EASY MAIL</title>
+<title>이지메일</title>
 <link rel="stylesheet" href="../css/bootstrap.css">
 <link rel="stylesheet" href="../css/custom.css">
-
 <style type="text/css">
 	a, a:hover {
 		color: #000000;
@@ -63,7 +62,7 @@
 
 					<ul class="dropdown-menu">
 
-						<li class="active"><a href="HP_login.jsp">로그인</a></li>
+						<li><a href="HP_login.jsp">로그인</a></li>
 
 						<li><a href="HP_join.jsp">회원가입</a></li>
 
@@ -137,6 +136,6 @@
 		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script src="js/bootstrap.js"></script>
+	<script src="../js/bootstrap.js"></script>
 </body>
 </html>

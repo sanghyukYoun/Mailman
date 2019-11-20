@@ -72,7 +72,7 @@
 
 					<ul class="dropdown-menu">
 
-						<li class="active"><a href="HP_login.jsp">로그인</a></li>
+						<li><a href="HP_login.jsp">로그인</a></li>
 
 						<li><a href="HP_join.jsp">회원가입</a></li>
 
