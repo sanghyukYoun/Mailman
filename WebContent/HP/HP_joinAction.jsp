@@ -38,7 +38,7 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>jsp 게시판 웹사이트</title>
+<title>이지메일</title>
 
 </head>
 

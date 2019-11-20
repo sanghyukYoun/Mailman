@@ -18,7 +18,7 @@
 
 <link rel="stylesheet" href="../css/bootstrap.min.css">
 
-<title>jsp 게시판 웹사이트</title>
+<title>이지메일</title>
 
 </head>
 
