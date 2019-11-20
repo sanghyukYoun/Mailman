@@ -54,7 +54,7 @@
 
 		    <li style="border:1px solid #BDBDBD; background-color: #00BFFF;"><p>중요사항</p></li>
 
-			<li style="border:1px solid #BDBDBD; background-color: #2E64FE;""><p>상세정보작성</p></li>
+			<li style="border:1px solid #BDBDBD; background-color: #2E64FE;"><p>상세정보작성</p></li>
 
 
 	    </ul>
