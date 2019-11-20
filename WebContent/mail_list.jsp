@@ -13,7 +13,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>홍보 대상자 추천</title>
-<link rel="stylesheet" href="mail.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/mail.css" type="text/css" media="screen" />
 <script type="text/javascript">
 	
 </script>

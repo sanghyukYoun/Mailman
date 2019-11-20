@@ -13,7 +13,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <title>Mail Send</title>
-<link rel="stylesheet" href="mail2.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/mail2.css" type="text/css" media="screen" />
 <script type="text/javascript" src="<%=cp%>/mail/data/mail.js"></script>
 </head>
 <script type="text/javascript">

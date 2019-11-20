@@ -166,7 +166,7 @@
 
 	   	<ul class="navbar">
 
-		    <li style="border:1px solid #848484; background-color: #424242;"><p>홍보 대상자 추출</p></li>
+		    <li style="border:1px solid #BDBDBD; background-color: #2E64FE;"><p>홍보 대상자 추출</p></li>
 
 	    </ul>
 
@@ -179,11 +179,11 @@
 
 	   	<ul class="navbar">
 
-		    <li style="border:1px solid #848484;"><p>홍보 상품 선택</p></li>
+		    <li style="border:1px solid #BDBDBD; background-color: #00BFFF;"><p>홍보 상품 선택</p></li>
 
-			<li style="border:1px solid #848484;"><p>유사상품목록</p></li>
+			<li style="border:1px solid #BDBDBD; background-color: #00BFFF;""><p>유사상품목록</p></li>
 
-		    <li style="border:1px solid #848484; background-color: #424242;"><p>구매고객분류</p></li>
+		    <li style="border:1px solid #BDBDBD; background-color: #2E64FE;""><p>구매고객분류</p></li>
 
 	    </ul>
 

@@ -58,7 +58,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="main.jsp">모두의 요리</a>
+				<a class="navbar-brand" href="main.jsp">이지 메일</a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">

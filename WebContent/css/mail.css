@@ -5,7 +5,7 @@ html, body {
 	font-size: 16px;
 	font-family:"Times New Roman";
 	color: #393939;
-	background: #efefef;
+	background: #ffffff;
 }
 body, div, p, h1, h3, h4, ul, figure {
 	margin: 0;
@@ -54,20 +54,21 @@ table {
  
 td,th {
 	font-size: 10pt;
-	border: 1px solid #98bf21;
+	border: 1px solid #BDBDBD;
 	height: 30px;
 	padding: 5px;
 }
 
 th {
-	background-color: #A7C942;
+	background-color: #BDBDBD;
 	color: #ffffff;
 	font-family: Georgia;
 }
 
 tr td {
 	color: #000000;
-	background-color: #EAF2D3;
+	background-color: #ffffff;
+	
 }
 
 input {
