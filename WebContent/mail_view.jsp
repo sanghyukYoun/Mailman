@@ -116,7 +116,6 @@
 
 </nav>
 	<div align=center>
-		<H2>유사상품목록</H2><br>
 		<H3>유사상품 기준 : 제조일자 +-2달, 상품분류코드 일치, 가격+-10만원</H3>
 		<HR>
 		<form action="mail_usergroup_list.jsp">

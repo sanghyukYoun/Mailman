@@ -25,6 +25,7 @@ a {
 /* ========== 내비게이션 ========== */
 nav {
 	background: #A4A4A4;
+	font-size: 150%;
 }
 	.navbar {
 		display: none;

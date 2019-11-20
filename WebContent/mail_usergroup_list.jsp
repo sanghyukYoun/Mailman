@@ -193,7 +193,6 @@
 	<form action="mail_usergroup_select.jsp" id="form1" name="form1" method="post">
 		<input type="hidden" name="checkItemId" value="<%=checkItemId%>">
 		<div align=center>
-			<H2>구매고객분류</H2>
 			<HR>
 			<%
 				if (ageList.size() == 0 && genderList.size() == 0 && addressList.size() == 0) {

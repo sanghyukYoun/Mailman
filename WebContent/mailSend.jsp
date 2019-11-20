@@ -73,20 +73,20 @@
 				<td colspan="2" height="3" bgcolor="#D8D8D8"><font color="white">새 메일</font></td>
 			</tr>
 			<tr>
-				<td colspan="2" height="1"><input type="button" value="메일 수신 대상자 추천" class="btn2" bgcolor="#BDBDBD" color="#ffffff" onClick="openMailList();" /></td>
+				<td colspan="2" height="1"><input type="button" value="메일 수신 대상자 추천" class="btn2" bgcolor="#332f2f" color="#ffffff" onClick="openMailList();" /></td>
 			</tr>
 			<tr>
-				<td colspan="2" height="1"><input type="text" value="보내는 사람 이름" onfocus="this.value=''" color="#BDBDBD" name="sendarName" size="75" maxlength="50" style="border-style: none; color: #BDBDBD;" class="boxTF"></td>
+				<td colspan="2" height="1"><input type="text" value="보내는 사람 이름" onfocus="this.value=''" color="#332f2f" name="sendarName" size="75" maxlength="50" style="border-style: none; color: #BDBDBD;" class="boxTF"></td>
 			</tr>
 			<tr>
-				<td colspan="2" height="1"><input type="text" value="보내는 사람 이메일" onfocus="this.value=''" color="#BDBDBD" name="senderEmail" size="75" maxlength="50" style="border-style: none; color: #BDBDBD;" class="boxTF"></td>
+				<td colspan="2" height="1"><input type="text" value="보내는 사람 이메일" onfocus="this.value=''" color="#332f2f" name="senderEmail" size="75" maxlength="50" style="border-style: none; color: #BDBDBD;" class="boxTF"></td>
 			</tr>
 			<tr>
-				<td colspan="2" height="1"><input type="text" value="받는 사람 이메일" onfocus="this.value=''" color="#BDBDBD" name="toAddr" id="toAddr" size="75" maxlength="1000" style="border-style: none; color: #BDBDBD;" class="boxTF">
+				<td colspan="2" height="1"><input type="text" value="받는 사람 이메일" onfocus="this.value=''" color="#332f2f" name="toAddr" id="toAddr" size="75" maxlength="1000" style="border-style: none; color: #BDBDBD;" class="boxTF">
 				</td>
 			</tr>
 			<tr>
-				<td colspan="2" bgcolor="#ffffff"><input type="text" value="제목" onfocus="this.value=''" color="#BDBDBD" name="subject" size="85" maxlength="100" style="border-style: none; color: #BDBDBD;" class="boxTF"></td>
+				<td colspan="2" bgcolor="#ffffff"><input type="text" value="제목" onfocus="this.value=''" color="#332f2f" name="subject" size="85" maxlength="100" style="border-style: none; color: #BDBDBD;" class="boxTF"></td>
 			</tr>
 			<tr>
 				<td colspan="2" bgcolor="ffffff" color="#BDBDBD"><textarea rows="20" cols="62" name="content" style="border-style: none; width: 662px" class="boxTA"></textarea></td>

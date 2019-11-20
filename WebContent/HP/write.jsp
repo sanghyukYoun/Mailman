@@ -39,7 +39,7 @@
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="HP_main.jsp">HOME</a></li>
+					<li class="active"><a href="HP_main.jsp">이지메일</a></li>
 					<li><a href="bbs.jsp">문의하기</a></li>
 				</ul>
 				<%
@@ -112,6 +112,6 @@
 		</div>
 	</nav>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script src="js/bootstrap.js"></script>
+	<script src="../js/bootstrap.js"></script>
 </body>
 </html>
