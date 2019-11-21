@@ -85,36 +85,22 @@
 %>
 
 <body>
-<nav>
-
-	<div class="container nav-container">
-
-	   	<ul class="navbar">
-
-		    <li style="border:1px solid #BDBDBD; background-color: #2E64FE;"><p>홍보 대상자 추출</p></li>
-
-	    </ul>
-
-	</div>
-
-</nav>
-<nav>
-
-	<div class="container nav-container">
-
-	   	<ul class="navbar">
-
-		    <li style="border:1px solid #BDBDBD; background-color: #00BFFF;"><p>홍보 상품 선택</p></li>
-
-			<li style="border:1px solid #BDBDBD; background-color: #2E64FE;""><p>유사상품목록</p></li>
-
-		    <li style="border:1px solid #BDBDBD; background-color: #00BFFF;""><p>구매고객분류</p></li>
-
-	    </ul>
-
-	</div>
-
-</nav>
+<div class="progress">
+  <div class="circle done"> <!--add the 'done' class for completed steps-->
+    <span class="label">1</span> <!--step number-->
+    <span class="title">홍보 상품 선택</span> <!--step title-->
+    <span class="bar"></span>
+  </div>
+  <div class="circle active"> <!--add the 'active' class for the current step-->
+    <span class="label">2</span>
+    <span class="title">유사상품 목록</span>
+    <span class="bar"></span>
+  </div>
+  <div class="circle"> <!--no added class for future steps-->
+    <span class="label">3</span>
+    <span class="title">구매고객 분류</span>
+  </div>
+</div>
 	<div align=center>
 	<br>
 		<H3>유사상품 기준 : 제조일자 +-2달, 상품분류코드 일치, 가격+-10만원</H3>

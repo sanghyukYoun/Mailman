@@ -11,6 +11,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+
+<link rel="stylesheet" type="text/css" href="css/mail.css">
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>홍보 대상자 추천</title>
 <link rel="stylesheet" href="css/mail.css" type="text/css" media="screen" />
@@ -72,37 +75,23 @@
 
 
 <body>
+<div class="progress">
+  <div class="circle active"> <!--add the 'done' class for completed steps-->
+    <span class="label">1</span> <!--step number-->
+    <span class="title">홍보 상품 선택</span> <!--step title-->
+    <span class="bar"></span>
+  </div>
+  <div class="circle"> <!--add the 'active' class for the current step-->
+    <span class="label">2</span>
+    <span class="title">유사상품 목록</span>
+    <span class="bar"></span>
+  </div>
+  <div class="circle"> <!--no added class for future steps-->
+    <span class="label">3</span>
+    <span class="title">구매고객 분류</span>
+  </div>
+</div>
 
-<nav>
-
-	<div class="container nav-container">
-
-	   	<ul class="navbar">
-
-		    <li style="border:1px solid #BDBDBD; background-color: #2E64FE;"><p>홍보 대상자 추출</p></li>
-
-	    </ul>
-
-	</div>
-
-</nav>
-<nav>
-
-	<div class="container nav-container">
-
-	   	<ul class="navbar">
-
-		    <li style="border:1px solid #BDBDBD; background-color: #2E64FE;"><p>홍보 상품 선택</p></li>
-
-			<li style="border:1px solid #BDBDBD; background-color: #00BFFF;""><p>유사상품목록</p></li>
-
-		    <li style="border:1px solid #BDBDBD; background-color: #00BFFF;""><p>구매고객분류</p></li>
-
-	    </ul>
-
-	</div>
-
-</nav>
 	<div align=center>
 		<HR>
 		<form action="mail_view.jsp">
