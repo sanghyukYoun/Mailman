@@ -1,0 +1,254 @@
+/* ========== ���� ========== */
+html, body {
+	font-size: 16px;
+	font-family:"Times New Roman";
+	color: #393939;
+	background: #efefef;
+}
+body, div, p, h1, h3, h4, ul, figure {
+	margin: 0;
+	padding: 0;
+}
+p, td, th, li {
+	line-height: 1.8;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+	
+a {
+	text-decoration: none;
+}
+.container {
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 1000px;
+}
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+/*  ���� */
+main h1 {
+	margin-bottom: 1rem;
+	border-bottom: 1px dashed #c94040;
+	font-weight: normal;
+	font-size: 1.6rem;
+}
+
+
+
+/* ========== ��� ========== */
+
+
+
+	
+header {
+	background: #fff;
+}
+
+	.header-lo {
+		list-style-type: none;
+		text-align: right;
+	}
+	.header-lo li {
+		display: inline;
+		padding: 0 1rem 0 0;
+
+	}
+	.header-lo a {
+		color: darkslategray;
+		text-decoration: none;
+	}
+
+	.header-container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.header-logo {
+		width: 200px;
+		height: 68px;
+		padding: 10px 0;
+	}
+	
+
+/* ========== ������̼� ========== */
+nav {
+	background: #394939;
+}
+	.navbar {
+		display: none;
+		list-style-type: none;
+	}
+	.navbar a {
+		display: block;
+		padding: 1rem ;
+		color: #fff;
+		text-decoration: none;
+	}
+
+
+	.navbar {
+		display: flex;
+	}
+	.navbar li {
+		flex: auto;
+		text-align: center;
+	}
+
+/*���μҰ� */
+	.home-mainc {
+		text-align: center;
+		font-size: 1.4rem;
+		margin-bottom:50px;
+	}
+	.home-mainc strong {
+		color: #c84040;
+	}
+
+
+	.home-mainc {
+		font-size: 2.4rem;
+	}
+
+
+
+/* ========== ����  ========== */
+main {
+	background: #fefef;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/* �׸� �Ұ� */
+.home-course {
+	display: flex;
+	flex-flow: column;
+}
+.home-course li {
+	flex: 1 1 auto;
+	margin: 0 2px 4px 2px;
+	border: solid 5px #fff;
+	list-style-type: none;
+	background: #fff;
+}
+
+.home-course {
+		flex-flow: row;
+	}
+
+.home-course a {
+	color: #393939;
+	text-decoration: none;
+}
+.home-course figure:hover {
+	opacity: 0.5;
+}
+.home-course figcaption {
+	padding: 15px 0;
+	font-size: 0.9rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/* ��������*/
+.home-h2 {
+
+
+	border-bottom: 1px dashed #c84040;
+	font-size: 2rem;
+
+}
+.gongjee {
+	padding: 50px;
+	border-radius: 10px;
+	background: #fff;
+}
+
+
+
+
+/* ========== Ǫ�� ========== */
+footer {
+	background: #fff;
+	font-size: 1.5rem;
+	color: #fff;
+}
+.footer-container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align:center;
+	color: black;
+	text-decoration: none;
+}
+
+/* button class */
+.page {
+  width: 100vw;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* add default color for animation start  */
+
+
+/* toggle this class */
+
+.color-bg-start {
+  background-color: salmon;
+}
+
+
+/* toggle class bg-animate-color */
+
+.bg-animate-color {
+  animation: random-bg .5s linear infinite;
+}
+
+
+/* add animation to bg color  */
+
+@keyframes random-bg {
+  from {
+    filter: hue-rotate(0);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.fun-btn {
+  /* change bg color to get different hues    */
+  background-color: #ee9300;
+  color: white;
+  padding: 2em 2em;
+  border: none;
+  transition: all .3s ease;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  outline: none;
+  align-self: center;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.fun-btn:hover {
+  background-color: #f2c377;
+}
+
+.start-fun {
+  background-color: #fff !important;
+  /* change color of button text when fun is started   */
+  color: salmon !important;
+}

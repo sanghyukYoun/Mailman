@@ -32,41 +32,21 @@
 </script>
 <body onload="document.myForm.sendName.focus();">
 
-<nav>
+<header>
 
-	<div class="container nav-container">
+	<div class="container header-container">
+	
+		<div>
 
-	   	<ul class="navbar">
+			<h1 class="header-logo"><a href="HP/HP_main.jsp"><img src="images/logo.jpg"></a></h1>
 
-		    <li style="border:1px solid #BDBDBD; background-color: #2E64FE;"><p>메일시스템</p></li>
-
-	    </ul>
-	    
-
-	</div>
-
-</nav>
-<nav>
-
-	<div class="container nav-container">
-
-	   	<ul class="navbar">
-
-		    <li style="border:1px solid #BDBDBD; background-color: #00BFFF;"><p>중요사항</p></li>
-
-			<li style="border:1px solid #BDBDBD; background-color: #2E64FE;"><p>상세정보작성</p></li>
-
-
-	    </ul>
+ 		</div>
 
 	</div>
+	
+</header>
 
-</nav>
-<HR>
-	<br>
-	<br />
-	<br>
-	<br />
+<br><br><br><br><br><br>
 	<form action="MailSend_ok.jsp" name="myForm" method="post" enctype="multipart/form-data">
 		<table width="600" border="1" cellpadding="3" cellspacing="0" align="center" bordercolor="BDBDBD">
 			<tr bgcolor="#999999">
@@ -100,16 +80,7 @@
 			</tr>
 		</table>
 
-		<table width="688" border="0" cellpadding="3" cellspacing="0" align="center">
-			<tr align="center">
-			</tr>
-		</table>
 	</form>
-		<br>
-	<br />
-	<br>
-	<br />
-	<HR>
 
 </body>
 </html>
