@@ -81,6 +81,21 @@
 		</table>
 
 	</form>
+	<br><br><br>
+<footer>
 
+
+  <div class="container footer-container">
+
+	<p class="footer-copyright">
+
+		easymail.com
+
+		</p>
+
+	</div>
+
+
+</footer>
 </body>
 </html>

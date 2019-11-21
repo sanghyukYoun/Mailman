@@ -12,7 +12,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>Mail Send</title>
+<title>이지메일</title>
 <link rel="stylesheet" href="../css/mail3.css" type="text/css" media="screen" />
 <script type="text/javascript" src="<%=cp%>/mail/data/mail.js"></script>
 </head>
@@ -111,7 +111,7 @@ function openmailSend()
             <h2 class="home-h2"> </h2>
 
 			<div class="gongjee">
-<a href="sub4.html"><img src="../images/board.PNG"></a>
+<a href="../board/board_list.jsp"><img src="../images/board.PNG"></a>
 				</div>
 				</main>
 
@@ -124,19 +124,9 @@ function openmailSend()
 	
 </section>
 	<div class="page">
-	<%
-			//if logined userID라는 변수에 해당 아이디가 담기고 if not null
-			if (session.getAttribute("userID") != null) {
-%>
-			
-    				<input type="button" class="fun-btn" value="관리자 페이지로 이동" onClick="openmailSend();">
-<%
-			} else {
-%>
+	
 			<a href="javascript:openmailSend()"><button class="fun-btn" type="button" >메일시스템 이용하기</button></a>
-<%
-			}
-%>
+
 </div>
 
 <!-- ========== 푸터 ========== -->
