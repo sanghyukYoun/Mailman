@@ -247,6 +247,26 @@ footer {
 .fun-btn:hover {
   background-color: #f2c377;
 }
+.fun-btn2 {
+  /* change bg color to get different hues    */
+  background-color: #ee9300;
+  color: white;
+  border: none;
+  padding: 2em 2em;
+  transition: all .3s ease;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  outline: none;
+  align-self: center;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.fun-btn2:hover {
+  background-color: #f2c377;
+}
 
 .start-fun {
   background-color: #fff !important;

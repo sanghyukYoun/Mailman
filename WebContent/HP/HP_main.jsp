@@ -125,7 +125,7 @@ function openmailSend()
 </section>
 	<div class="page">
 	
-			<a href="javascript:openmailSend()"><button class="fun-btn" type="button" >메일시스템 이용하기</button></a>
+			<a href="javascript:openmailSend()"><button class="fun-btn2" type="button" >메일시스템 이용하기</button></a>
 
 </div>
 
