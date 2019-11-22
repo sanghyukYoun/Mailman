@@ -71,7 +71,7 @@ function deletecheck() {
 	<form name="form1" method="post" action="../board/BoardController">
 	
 	<div align="center">
-
+	<H2>문의하기</H2><br>
 	
 
 	<div class="h">
@@ -99,6 +99,8 @@ function deletecheck() {
 					<input type="button" id="delete" class="fun-btn" value="목록" onClick="listcheck()">
 </div>
 	</form>
+	<div class="he">
+	</div>
 <footer>
 
 

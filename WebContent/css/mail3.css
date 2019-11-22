@@ -1,4 +1,6 @@
-/* ========== ���� ========== */
+@charset "utf-8";
+
+/* ========== 占쏙옙占쏙옙 ========== */
 html, body {
 	font-size: 16px;
 	font-family:"Times New Roman";
@@ -31,7 +33,7 @@ a {
 	max-width: 100%;
 	height: auto;
 }
-/*  ���� */
+/*  占쏙옙占쏙옙 */
 main h1 {
 	margin-bottom: 1rem;
 	border-bottom: 1px dashed #c94040;
@@ -41,7 +43,7 @@ main h1 {
 
 
 
-/* ========== ��� ========== */
+/* ========== 占쏙옙占� ========== */
 
 
 
@@ -76,7 +78,7 @@ header {
 	}
 	
 
-/* ========== ������̼� ========== */
+/* ========== 占쏙옙占쏙옙占쏙옙抉占� ========== */
 nav {
 	background: #394939;
 }
@@ -100,7 +102,7 @@ nav {
 		text-align: center;
 	}
 
-/*���μҰ� */
+/*占쏙옙占싸소곤옙 */
 	.home-mainc {
 		text-align: center;
 		font-size: 1.4rem;
@@ -117,7 +119,7 @@ nav {
 
 
 
-/* ========== ����  ========== */
+/* ========== 占쏙옙占쏙옙  ========== */
 main {
 	background: #fefef;
 	padding-top: 50px;
@@ -126,7 +128,7 @@ main {
 	padding-right: 30px;
 }
 
-/* �׸� �Ұ� */
+/* 占쌓몌옙 占쌀곤옙 */
 .home-course {
 	display: flex;
 	flex-flow: column;
@@ -158,7 +160,7 @@ main {
 }
 
 
-/* ��������*/
+/* 占쏙옙占쏙옙占쏙옙占쏙옙*/
 .home-h2 {
 
 
@@ -175,7 +177,7 @@ main {
 
 
 
-/* ========== Ǫ�� ========== */
+/* ========== 푸占쏙옙 ========== */
 footer {
 	background: #fff;
 	font-size: 1.5rem;
@@ -230,7 +232,6 @@ footer {
   /* change bg color to get different hues    */
   background-color: #ee9300;
   color: white;
-  padding: 2em 2em;
   border: none;
   transition: all .3s ease;
   border-radius: 5px;
@@ -265,7 +266,7 @@ footer {
 .bbsListTbl td:nth-child(3) {width:15%;}
 .bbsListTbl td:nth-child(4) {width:20%;}
 
-/* 공지사항 상세보기 */
+/* 怨듭��궗�빆 �긽�꽭蹂닿린 */
 .bbsview_list {width:1050px; margin:0 auto; padding-bottom:30px;  border-top:2px solid #384d75; text-align:left; list-style:none;}
 .bbsview_list li {box-sizing:border-box; padding:0 15px; border-bottom:1px solid #ccc; font-size:14px; color:#666;}
 .bbsview_list li.bbs_title {width:100%; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; height:50px; line-height:50px; font-weight:bold; font-size:16px;}
@@ -279,4 +280,5 @@ input {
 	width:200px;
 	border-style:none;
 }
+.he{height:300px;}
 

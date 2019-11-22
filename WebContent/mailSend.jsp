@@ -27,7 +27,7 @@
     function openMailList()
     {
         window.name = "parentForm";
-        openWin = window.open("mail_list.jsp", "childForm", "width=900, height=600, resizable = no, scrollbars = no");    
+        openWin = window.open("mail_list.jsp", "childForm", "width=1000, height=600, resizable = no, scrollbars = no");    
     }	
 </script>
 <body onload="document.myForm.sendName.focus();">

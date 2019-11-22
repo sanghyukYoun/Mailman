@@ -75,7 +75,7 @@
 
 	<div class="h">
 	<div align="center">
-
+	<H2>문의하기</H2><br>
 	<form name="form1" method="post" action="BoardController">
 	
 		
@@ -99,6 +99,8 @@
 					<input type="button" id="delete" class="fun-btn" value="삭제" onClick="deletecheck()">
 	</form>
 	</div>
+	</div>
+	<div class="he">
 	</div>
 <footer>
 
