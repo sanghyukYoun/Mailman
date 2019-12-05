@@ -196,7 +196,14 @@ public class MailSend {
 
 			if(mailType.indexOf("text/html")!=-1){
 
-				content = content.replaceAll("\n", "<br/>");
+				content = content.replaceAll("\n", "<br/>")
+						+ "<HTML>" +
+						"<HEAD><TITLE</TITLE></HEAD>" +
+						"<BODY>" +
+						"<img src='https://user-images.githubusercontent.com/49258387/70127200-e7b12e00-16bd-11ea-8162-dbf62d6d510a.JPG'></img>" +
+						"</BODY>" +
+						"</HTML>";
+						;
 
 			}
 
